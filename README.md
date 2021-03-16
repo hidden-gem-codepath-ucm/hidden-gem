@@ -4,74 +4,79 @@
 1. [Overview](#Overview)
 1. [Product Spec](#Product-Spec)
 1. [Wireframes](#Wireframes)
-2. [Schema](#Schema)
 
 ## Overview
 ### Description
-[Description of your app]
+Displays locations that users mark as interesting, unique, or hidden. Can potentially contain locations and routes that individuals will explore with friends and family.  
 
 ### App Evaluation
-[Evaluation of your app across the following attributes]
-- **Category:**
-- **Mobile:**
-- **Story:**
-- **Market:**
-- **Habit:**
-- **Scope:**
+- **Category:** Travel / Social
+- **Mobile:** This app would be primarily developed for mobile but would perhaps be just as viable on a computer. Functionality wouldn't be limited to mobile devices, however mobile version could potentially have more features.
+- **Story:** Analyzes users location, and displays marked locations within the users desired vicinity. The user can then decide to mark a new location or view marked locations.
+- **Market:** Any individual could choose to use this app, and to keep it a safe environment, people would be showed locations at a maximum of 20 miles away from their current location.
+- **Habit:** This app could be used as often or unoften as the user wanted depending on how adventurous they are, and what exactly they're looking for.
+- **Scope:** First we would start with displaying marked locations based on the individual's location preferences, then perhaps this could evolve into a travel guide application as well to broaden its usage.
+
+
+<!-- Eduardo has stopped editting at this location -->
 
 ## Product Spec
-
 ### 1. User Stories (Required and Optional)
 
 **Required Must-have Stories**
 
-* [fill in your required user stories here]
-* ...
+* All users can view, add, update, and delete hidden gems based off their location
+* Profile pages for each user
+* Settings (Accesibility, Notification, General, etc.)
 
 **Optional Nice-to-have Stories**
 
-* [fill in your required user stories here]
-* ...
+* Shortest route to selected hidden gem
+* Favoriting and rating hidden gems for logged in users 
 
 ### 2. Screen Archetypes
 
-* [list first screen here]
-   * [list associated required story here]
-   * ...
-* [list second screen here]
-   * [list associated required story here]
-   * ...
+* Login 
+    * Users who already logged in will remain logged in
+* Register
+    * User signs up or logs into their account
+* Maps 
+    * Shows a map with hidden locations marked, also includes a search bar to search for specific hidden gems, also an add button to add new hidden gem locations
+* Creation
+    * Create a new hidden gem to add to maps
+* Detail
+    * Click on a specific hidden gem location and view details about the location
+* Profile 
+   * Allows user to upload a photo and fill in information that is interesting to them and others
+* Settings
+   * Lets people set location, change language, and app notification settings.
 
 ### 3. Navigation
 
 **Tab Navigation** (Tab to Screen)
 
-* [fill out your first tab]
-* [fill out your second tab]
-* [fill out your third tab]
+* Add Locations
+* Search
+* Profile
+* Settings
+
+Optional:
+* Map
+* Discover (Popular Choices)
 
 **Flow Navigation** (Screen to Screen)
-
-* [list first screen here]
-   * [list screen navigation here]
-   * ...
-* [list second screen here]
-   * [list screen navigation here]
-   * ...
+* Forced Log-in -> Account creation if no log in is available
+* Map/Stream -> Add Location -> Creation
+* Creation -> Add image, location, tags and description -> Post (End creation)
+* Map/Stream -> Search -> Details -> Locations on map
+* Profile -> Change of name, location, favorited locations. 
+* Settings -> Change of language, access to location
 
 ## Wireframes
-[Add picture of your hand sketched wireframes in this section]
-<img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
+<img src="https://i.imgur.com/apKfylG.jpg" width=800><br>
 
-### [BONUS] Digital Wireframes & Mockups
+<!-- ### [BONUS] Digital Wireframes & Mockups
+<img src="https://i.imgur.com/lYHn37F.jpg" height=200>
 
 ### [BONUS] Interactive Prototype
-
-## Schema 
-[This section will be completed in Unit 9]
-### Models
-[Add table of models]
-### Networking
-- [Add list of network requests by screen ]
-- [Create basic snippets for each Parse network request]
-- [OPTIONAL: List endpoints if using existing API such as Yelp]
+<img src="https://i.imgur.com/AiKfE5g.gif" width=200> -->
