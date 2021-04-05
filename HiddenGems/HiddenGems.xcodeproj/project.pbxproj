@@ -15,6 +15,9 @@
 		6BB0442726140C920002DB3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BB0442526140C920002DB3F /* LaunchScreen.storyboard */; };
 		6BB0443226140C920002DB3F /* HiddenGemsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB0443126140C920002DB3F /* HiddenGemsTests.swift */; };
 		6BB0443D26140C920002DB3F /* HiddenGemsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB0443C26140C920002DB3F /* HiddenGemsUITests.swift */; };
+		AD1E9F08845888F418F9779A /* Pods_HiddenGems_HiddenGemsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C43E734217C3C5C68F2FBB2 /* Pods_HiddenGems_HiddenGemsUITests.framework */; };
+		BC287D6677A727C63A8156EC /* Pods_HiddenGemsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DA0118D216E709603BE7861 /* Pods_HiddenGemsTests.framework */; };
+		D442B842FB172B67333811B4 /* Pods_HiddenGems.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 956F2E521CE2DEFF7A722204 /* Pods_HiddenGems.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		080F50A851D6D09313F97DC3 /* Pods-HiddenGems.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HiddenGems.debug.xcconfig"; path = "Target Support Files/Pods-HiddenGems/Pods-HiddenGems.debug.xcconfig"; sourceTree = "<group>"; };
+		1C43E734217C3C5C68F2FBB2 /* Pods_HiddenGems_HiddenGemsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HiddenGems_HiddenGemsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DA0118D216E709603BE7861 /* Pods_HiddenGemsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HiddenGemsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		639009BBB91182952E85B8DA /* Pods-HiddenGems-HiddenGemsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HiddenGems-HiddenGemsUITests.release.xcconfig"; path = "Target Support Files/Pods-HiddenGems-HiddenGemsUITests/Pods-HiddenGems-HiddenGemsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		67CE752351E8C4E359B87A79 /* Pods-HiddenGemsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HiddenGemsTests.debug.xcconfig"; path = "Target Support Files/Pods-HiddenGemsTests/Pods-HiddenGemsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		6BB0441726140C8F0002DB3F /* HiddenGems.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HiddenGems.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BB0441A26140C8F0002DB3F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6BB0441C26140C8F0002DB3F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +57,10 @@
 		6BB0443826140C920002DB3F /* HiddenGemsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HiddenGemsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BB0443C26140C920002DB3F /* HiddenGemsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HiddenGemsUITests.swift; sourceTree = "<group>"; };
 		6BB0443E26140C920002DB3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		956F2E521CE2DEFF7A722204 /* Pods_HiddenGems.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HiddenGems.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB7B25BCB53D6DF1143889DF /* Pods-HiddenGemsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HiddenGemsTests.release.xcconfig"; path = "Target Support Files/Pods-HiddenGemsTests/Pods-HiddenGemsTests.release.xcconfig"; sourceTree = "<group>"; };
+		C651BBB3623DE67E8C8ACF98 /* Pods-HiddenGems.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HiddenGems.release.xcconfig"; path = "Target Support Files/Pods-HiddenGems/Pods-HiddenGems.release.xcconfig"; sourceTree = "<group>"; };
+		F8BD16F3BAFDB181D56BD74F /* Pods-HiddenGems-HiddenGemsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HiddenGems-HiddenGemsUITests.debug.xcconfig"; path = "Target Support Files/Pods-HiddenGems-HiddenGemsUITests/Pods-HiddenGems-HiddenGemsUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D442B842FB172B67333811B4 /* Pods_HiddenGems.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC287D6677A727C63A8156EC /* Pods_HiddenGemsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD1E9F08845888F418F9779A /* Pods_HiddenGems_HiddenGemsUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2F3EE8079A7DB70F0D0FBC01 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				080F50A851D6D09313F97DC3 /* Pods-HiddenGems.debug.xcconfig */,
+				C651BBB3623DE67E8C8ACF98 /* Pods-HiddenGems.release.xcconfig */,
+				F8BD16F3BAFDB181D56BD74F /* Pods-HiddenGems-HiddenGemsUITests.debug.xcconfig */,
+				639009BBB91182952E85B8DA /* Pods-HiddenGems-HiddenGemsUITests.release.xcconfig */,
+				67CE752351E8C4E359B87A79 /* Pods-HiddenGemsTests.debug.xcconfig */,
+				AB7B25BCB53D6DF1143889DF /* Pods-HiddenGemsTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		6BB0440E26140C8F0002DB3F = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +112,8 @@
 				6BB0443026140C920002DB3F /* HiddenGemsTests */,
 				6BB0443B26140C920002DB3F /* HiddenGemsUITests */,
 				6BB0441826140C8F0002DB3F /* Products */,
+				2F3EE8079A7DB70F0D0FBC01 /* Pods */,
+				A39E539F3A1DB6218FF36C53 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +159,16 @@
 			path = HiddenGemsUITests;
 			sourceTree = "<group>";
 		};
+		A39E539F3A1DB6218FF36C53 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				956F2E521CE2DEFF7A722204 /* Pods_HiddenGems.framework */,
+				1C43E734217C3C5C68F2FBB2 /* Pods_HiddenGems_HiddenGemsUITests.framework */,
+				5DA0118D216E709603BE7861 /* Pods_HiddenGemsTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +176,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6BB0444126140C920002DB3F /* Build configuration list for PBXNativeTarget "HiddenGems" */;
 			buildPhases = (
+				3F1054685351E0401F6925C9 /* [CP] Check Pods Manifest.lock */,
 				6BB0441326140C8F0002DB3F /* Sources */,
 				6BB0441426140C8F0002DB3F /* Frameworks */,
 				6BB0441526140C8F0002DB3F /* Resources */,
+				BF589BEB9A6CF6BD5BB2351D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +195,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6BB0444426140C920002DB3F /* Build configuration list for PBXNativeTarget "HiddenGemsTests" */;
 			buildPhases = (
+				265B4B1111A06C8796ED9C52 /* [CP] Check Pods Manifest.lock */,
 				6BB0442926140C920002DB3F /* Sources */,
 				6BB0442A26140C920002DB3F /* Frameworks */,
 				6BB0442B26140C920002DB3F /* Resources */,
@@ -170,9 +214,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6BB0444726140C920002DB3F /* Build configuration list for PBXNativeTarget "HiddenGemsUITests" */;
 			buildPhases = (
+				AE069A915DF3A082ED75595E /* [CP] Check Pods Manifest.lock */,
 				6BB0443426140C920002DB3F /* Sources */,
 				6BB0443526140C920002DB3F /* Frameworks */,
 				6BB0443626140C920002DB3F /* Resources */,
+				7B6F8EAD44EE230CA7AC6A11 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -252,6 +298,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		265B4B1111A06C8796ED9C52 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HiddenGemsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F1054685351E0401F6925C9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HiddenGems-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B6F8EAD44EE230CA7AC6A11 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HiddenGems-HiddenGemsUITests/Pods-HiddenGems-HiddenGemsUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HiddenGems-HiddenGemsUITests/Pods-HiddenGems-HiddenGemsUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HiddenGems-HiddenGemsUITests/Pods-HiddenGems-HiddenGemsUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE069A915DF3A082ED75595E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HiddenGems-HiddenGemsUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF589BEB9A6CF6BD5BB2351D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HiddenGems/Pods-HiddenGems-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HiddenGems/Pods-HiddenGems-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HiddenGems/Pods-HiddenGems-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6BB0441326140C8F0002DB3F /* Sources */ = {
@@ -433,6 +582,7 @@
 		};
 		6BB0444226140C920002DB3F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 080F50A851D6D09313F97DC3 /* Pods-HiddenGems.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -452,6 +602,7 @@
 		};
 		6BB0444326140C920002DB3F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C651BBB3623DE67E8C8ACF98 /* Pods-HiddenGems.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -471,6 +622,7 @@
 		};
 		6BB0444526140C920002DB3F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67CE752351E8C4E359B87A79 /* Pods-HiddenGemsTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +645,7 @@
 		};
 		6BB0444626140C920002DB3F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB7B25BCB53D6DF1143889DF /* Pods-HiddenGemsTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +668,7 @@
 		};
 		6BB0444826140C920002DB3F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8BD16F3BAFDB181D56BD74F /* Pods-HiddenGems-HiddenGemsUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +689,7 @@
 		};
 		6BB0444926140C920002DB3F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 639009BBB91182952E85B8DA /* Pods-HiddenGems-HiddenGemsUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
