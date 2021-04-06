@@ -16,6 +16,10 @@
 		6BB0443D26140C920002DB3F /* HiddenGemsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB0443C26140C920002DB3F /* HiddenGemsUITests.swift */; };
 		79BE40E7261BA880002E0A7E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BE40E6261BA880002E0A7E /* LoginViewController.swift */; };
 		79BE40EC261BA8C8002E0A7E /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BE40EB261BA8C8002E0A7E /* MapViewController.swift */; };
+		79BE40F1261BEC1B002E0A7E /* NewHiddenGemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BE40F0261BEC1B002E0A7E /* NewHiddenGemViewController.swift */; };
+		79BE40F6261BF1F9002E0A7E /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BE40F5261BF1F9002E0A7E /* RoundButton.swift */; };
+		79BE40FB261BF5AA002E0A7E /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BE40FA261BF5AA002E0A7E /* MenuViewController.swift */; };
+		79BE4100261BF621002E0A7E /* LocationPreferencesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BE40FF261BF621002E0A7E /* LocationPreferencesViewController.swift */; };
 		AD1E9F08845888F418F9779A /* Pods_HiddenGems_HiddenGemsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C43E734217C3C5C68F2FBB2 /* Pods_HiddenGems_HiddenGemsUITests.framework */; };
 		BC287D6677A727C63A8156EC /* Pods_HiddenGemsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DA0118D216E709603BE7861 /* Pods_HiddenGemsTests.framework */; };
 		D442B842FB172B67333811B4 /* Pods_HiddenGems.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 956F2E521CE2DEFF7A722204 /* Pods_HiddenGems.framework */; };
@@ -59,6 +63,10 @@
 		6BB0443E26140C920002DB3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		79BE40E6261BA880002E0A7E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		79BE40EB261BA8C8002E0A7E /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		79BE40F0261BEC1B002E0A7E /* NewHiddenGemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewHiddenGemViewController.swift; sourceTree = "<group>"; };
+		79BE40F5261BF1F9002E0A7E /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		79BE40FA261BF5AA002E0A7E /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		79BE40FF261BF621002E0A7E /* LocationPreferencesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPreferencesViewController.swift; sourceTree = "<group>"; };
 		956F2E521CE2DEFF7A722204 /* Pods_HiddenGems.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HiddenGems.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB7B25BCB53D6DF1143889DF /* Pods-HiddenGemsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HiddenGemsTests.release.xcconfig"; path = "Target Support Files/Pods-HiddenGemsTests/Pods-HiddenGemsTests.release.xcconfig"; sourceTree = "<group>"; };
 		C651BBB3623DE67E8C8ACF98 /* Pods-HiddenGems.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HiddenGems.release.xcconfig"; path = "Target Support Files/Pods-HiddenGems/Pods-HiddenGems.release.xcconfig"; sourceTree = "<group>"; };
@@ -139,6 +147,10 @@
 				6BB0442826140C920002DB3F /* Info.plist */,
 				79BE40E6261BA880002E0A7E /* LoginViewController.swift */,
 				79BE40EB261BA8C8002E0A7E /* MapViewController.swift */,
+				79BE40F0261BEC1B002E0A7E /* NewHiddenGemViewController.swift */,
+				79BE40F5261BF1F9002E0A7E /* RoundButton.swift */,
+				79BE40FA261BF5AA002E0A7E /* MenuViewController.swift */,
+				79BE40FF261BF621002E0A7E /* LocationPreferencesViewController.swift */,
 			);
 			path = HiddenGems;
 			sourceTree = "<group>";
@@ -409,8 +421,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79BE40F6261BF1F9002E0A7E /* RoundButton.swift in Sources */,
 				79BE40E7261BA880002E0A7E /* LoginViewController.swift in Sources */,
 				6BB0441B26140C8F0002DB3F /* AppDelegate.swift in Sources */,
+				79BE40FB261BF5AA002E0A7E /* MenuViewController.swift in Sources */,
+				79BE4100261BF621002E0A7E /* LocationPreferencesViewController.swift in Sources */,
+				79BE40F1261BEC1B002E0A7E /* NewHiddenGemViewController.swift in Sources */,
 				6BB0441D26140C8F0002DB3F /* SceneDelegate.swift in Sources */,
 				79BE40EC261BA8C8002E0A7E /* MapViewController.swift in Sources */,
 			);

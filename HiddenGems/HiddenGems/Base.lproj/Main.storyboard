@@ -107,12 +107,41 @@
                                     <outlet property="delegate" destination="tju-rv-x6n" id="FqQ-C3-wAO"/>
                                 </connections>
                             </mapView>
+                            <searchBar contentMode="redraw" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="toH-89-6uG">
+                                <rect key="frame" x="0.0" y="88" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </searchBar>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xCR-La-NDJ" customClass="RoundButton" customModule="HiddenGems" customModuleProvider="target">
+                                <rect key="frame" x="324" y="792" width="70" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemRedColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="Add">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="roundButton" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="eTc-E1-g4C" kind="presentation" id="zhc-yc-qjZ"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="IbJ-Fo-hka"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="1Ji-fF-QGj">
-                        <barButtonItem key="leftBarButtonItem" image="line.horizontal.3" catalog="system" id="Vfl-ay-v44"/>
+                        <barButtonItem key="leftBarButtonItem" image="line.horizontal.3" catalog="system" id="Vfl-ay-v44">
+                            <connections>
+                                <segue destination="5fv-rt-5ie" kind="presentation" id="znS-hT-nPx"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" image="location" catalog="system" id="ABh-Lj-svS">
+                            <connections>
+                                <segue destination="T4f-d7-zFr" kind="presentation" id="cDA-n7-w9L"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="mapView" destination="yth-LW-XzR" id="lCs-ep-U3W"/>
@@ -120,12 +149,105 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="840-UQ-vcD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1362" y="67"/>
+            <point key="canvasLocation" x="1360.8695652173915" y="66.964285714285708"/>
+        </scene>
+        <!--Menu View Controller-->
+        <scene sceneID="pRb-RI-GyF">
+            <objects>
+                <viewController id="gjA-MF-npQ" customClass="MenuViewController" customModule="HiddenGems" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="FFy-ev-2NT">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Menu Navigation" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Loy-8n-5dG">
+                                <rect key="frame" x="136" y="437" width="143" height="23"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Kel-KI-57d"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="GLp-wQ-gIu">
+                        <barButtonItem key="rightBarButtonItem" title="Back" id="gxi-f2-r4U">
+                            <connections>
+                                <action selector="onBackMenu:" destination="gjA-MF-npQ" id="Nyp-Pw-zN7"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vY1-3W-UCG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2945" y="-202"/>
+        </scene>
+        <!--Location Preferences View Controller-->
+        <scene sceneID="mom-Qj-55E">
+            <objects>
+                <viewController id="GJD-bs-cY2" customClass="LocationPreferencesViewController" customModule="HiddenGems" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Nzp-Qf-dbt">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Location Preferences" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CSW-oS-NHa">
+                                <rect key="frame" x="118" y="437" width="179" height="23"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="dvu-2W-FL7"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="ZdR-cF-L25">
+                        <barButtonItem key="leftBarButtonItem" title="Back" id="Due-Jk-me7">
+                            <connections>
+                                <action selector="onBackLocation:" destination="GJD-bs-cY2" id="1mn-tm-2Dy"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8sx-Wq-Rzu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2945" y="509"/>
+        </scene>
+        <!--New Hidden Gem View Controller-->
+        <scene sceneID="KqW-ej-25H">
+            <objects>
+                <viewController id="D1k-Qq-Fbf" customClass="NewHiddenGemViewController" customModule="HiddenGems" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="lpU-jl-jbV">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Create Gem Controller" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JJC-Nx-ib2">
+                                <rect key="frame" x="113" y="437" width="189" height="23"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="XKG-js-OIh"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="BPy-Pl-GwV">
+                        <barButtonItem key="leftBarButtonItem" title="Cancel" id="JL9-QX-La8">
+                            <connections>
+                                <action selector="cancelHiddenGem:" destination="D1k-Qq-Fbf" id="JMM-0h-ORD"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Rf5-fY-lQw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1371" y="1517"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Btd-Pj-q2D">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" modalPresentationStyle="fullScreen" id="j4k-p4-4eJ" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" modalTransitionStyle="crossDissolve" modalPresentationStyle="fullScreen" id="j4k-p4-4eJ" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="AD4-5f-4qd">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -140,14 +262,77 @@
             </objects>
             <point key="canvasLocation" x="560.86956521739137" y="66.964285714285708"/>
         </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Vra-NU-3KY">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" modalPresentationStyle="fullScreen" id="eTc-E1-g4C" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Tx7-vT-sf1">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="D1k-Qq-Fbf" kind="relationship" relationship="rootViewController" id="ykY-8m-clI"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iIf-1o-eig" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1371.0144927536232" y="763.39285714285711"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="0CK-Ao-7qN">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" modalPresentationStyle="fullScreen" id="T4f-d7-zFr" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="tZK-3k-Oc9">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="GJD-bs-cY2" kind="relationship" relationship="rootViewController" id="0ge-g1-wzH"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Meg-4b-4V3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2132" y="509"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="CYU-re-Wxh">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" modalPresentationStyle="fullScreen" id="5fv-rt-5ie" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="ebr-Q5-PsL">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="gjA-MF-npQ" kind="relationship" relationship="rootViewController" id="ido-kQ-VZl"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HwQ-Kd-pTl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2132" y="-202"/>
+        </scene>
     </scenes>
+    <designables>
+        <designable name="xCR-La-NDJ">
+            <size key="intrinsicContentSize" width="33" height="34"/>
+        </designable>
+    </designables>
     <resources>
         <image name="line.horizontal.3" catalog="system" width="128" height="64"/>
+        <image name="location" catalog="system" width="128" height="121"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemGray5Color">
             <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
