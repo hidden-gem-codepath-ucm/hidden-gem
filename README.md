@@ -11,6 +11,8 @@ Unit 8: Group Milestone - Hidden Gem README
 1. [Overview](#Overview)
 1. [Product Spec](#Product-Spec)
 1. [Wireframes](#Wireframes)
+2. [Current Progress](#Current-Progress)
+3. [Video Walkthrough](#Video-Walkthrough)
 
 ## Overview
 ### Description
@@ -297,3 +299,52 @@ Settings:
            }
          }
      ```
+     
+### Current Progress
+**Implemented User Stories**
+**1. Login**
+- [X] User can Log In
+- [X] User can Sign Up
+- [ ] User can stay logged in
+- [ ] User can Log Out
+
+**2.  Map View**
+- [X] Map is displayed
+- [X] User's current location is displayed
+- [X] Map is zoomed into user's location
+- [ ] Map displays "Hidden Gem" locations
+- [X] Map Navigation Button
+- [X] Location Preferences Button
+- [X] Make Hidden Gem Button
+- [X] Search Bar
+
+**3. Menu Navigation**
+- [ ] Profile image is displayed
+- [ ] Profile username is displayed
+- [ ] "Profile" tab
+- [ ] "Bookmark" tab
+- [ ] "Settings" tab
+- [ ] "Logout" button
+- [X] "Back" (to Map View) button
+
+**4. Location Preferences**
+- [ ] Distance Slider
+- [X] "Back" (to Map View) button
+
+**5. Make Hidden Gem**
+- [ ] Display Location of Gem
+- [ ] Name of location input
+- [ ] Description input
+- [ ] Address input (can be switched with automatic lat/long input)
+- [ ] Create Hidden Gem button
+
+**6. Hidden Gem** 
+
+**7. Profile**
+
+## Video Walkthrough
+
+Here's a walkthrough of implemented user stories:
+
+<img src='http://g.recordit.co/KH5QuHpc7c.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
