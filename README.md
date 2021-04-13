@@ -337,10 +337,10 @@ Settings:
 
 **5. Make Hidden Gem**
 - [ ] Display Location of Gem
-- [ ] Name of location input
-- [ ] Description input
-- [ ] Address input (can be switched with automatic lat/long input)
-- [ ] Create Hidden Gem button
+- [X] Name of location input
+- [X] Description input
+- [X] Address input (can be switched with automatic lat/long input)
+- [X] Create Hidden Gem button
 
 **6. Hidden Gem** 
 
