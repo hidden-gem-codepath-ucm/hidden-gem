@@ -309,8 +309,8 @@ Settings:
 **1. Login**
 - [X] User can Log In
 - [X] User can Sign Up
-- [ ] User can stay logged in
-- [ ] User can Log Out
+- [X] User can stay logged in
+- [X] User can Log Out
 
 **2.  Map View**
 - [X] Map is displayed
@@ -325,10 +325,10 @@ Settings:
 **3. Menu Navigation**
 - [ ] Profile image is displayed
 - [ ] Profile username is displayed
-- [ ] "Profile" tab
-- [ ] "Bookmark" tab
-- [ ] "Settings" tab
-- [ ] "Logout" button
+- [X] "Profile" tab
+- [X] "Bookmark" tab
+- [X] "Settings" tab
+- [X] "Logout" button
 - [X] "Back" (to Map View) button
 
 **4. Location Preferences**
@@ -348,7 +348,11 @@ Settings:
 
 ## Video Walkthrough
 
-Here's a walkthrough of implemented user stories:
+Here's a walkthrough of implemented user stories 4/5/21:
 
 <img src='http://g.recordit.co/KH5QuHpc7c.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+Here's a walkthrough of implemented user stories 4/12/21:
+
+<img src='http://g.recordit.co/i3m69BhvgA.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
