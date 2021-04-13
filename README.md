@@ -88,6 +88,10 @@ Optional:
 <!-- ### [BONUS] Digital Wireframes & Mockups
 <img src="https://i.imgur.com/lYHn37F.jpg" height=200>
 
+<img width="740" alt="Screen Shot 2021-04-12 at 7 55 06 PM" src="https://user-images.githubusercontent.com/70248443/114490181-3e3f4e00-9bc9-11eb-98bf-c39e537a33f4.png">
+<img width="875" alt="Screen Shot 2021-04-12 at 7 55 43 PM" src="https://user-images.githubusercontent.com/70248443/114490189-41d2d500-9bc9-11eb-8de6-9dade6d82854.png">
+
+
 ### [BONUS] Interactive Prototype
 <img src="https://i.imgur.com/AiKfE5g.gif" width=200> -->
 
