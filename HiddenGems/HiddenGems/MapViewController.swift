@@ -8,6 +8,7 @@
 import UIKit
 import MapKit
 import CoreLocation
+import Parse
 
 class MapViewController: UIViewController {
     @IBOutlet weak var mapView: MKMapView!
@@ -18,9 +19,30 @@ class MapViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         checkLocationServices()
+       // displayHiddengems()
 
         // Do any additional setup after loading the view.
     }
+    
+//    func displayHiddengems(){
+//        let query = PFQuery(className:"HiddenGems")
+//        query.includeKeys(["title", "location"])
+//
+//        query.findObjectsInBackground { (hiddenGems, error) in
+//            if hiddenGems != nil {
+//                let annotation = MKPointAnnotation()
+//                let location = hiddenGems["location"] as! PFGeoPoint
+//                annotation.subtitle = (hiddenGems["title"] as! String)
+//                annotation.coordinate = CLLocationCoordinate2D(latitude: location.latitude, longitude: location.longitude)
+//                //annotation.description = (hiddenGem["description"] as! String)
+//                self.mapView.addAnnotation(annotation)
+//
+//            }
+//            else{
+//                print("Error displaying HiddenGems: \(error)")
+//            }
+//        }
+//    }
     
     func setupLocationManager(){
         locationManager.delegate = self
