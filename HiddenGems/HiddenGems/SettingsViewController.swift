@@ -1,19 +1,14 @@
 //
-//  LocationPreferencesViewController.swift
+//  SettingsViewController.swift
 //  HiddenGems
 //
-//  Created by Eduardo Barreto-Mendoza on 4/5/21.
+//  Created by Kenny Jung on 4/13/21.
 //
 
 import UIKit
 
-class LocationPreferencesViewController: UIViewController {
-    
-    @IBAction func onBackLocation(_ sender: Any) {
-        dismiss(animated: true, completion: nil)
-    }
-    
-    
+class SettingsViewController: UIViewController {
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
