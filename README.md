@@ -332,7 +332,7 @@ Settings:
 - [X] "Back" (to Map View) button
 
 **4. Location Preferences**
-- [ ] Distance Slider
+- [X] Distance Slider
 - [X] "Back" (to Map View) button
 
 **5. Make Hidden Gem**
@@ -345,6 +345,11 @@ Settings:
 **6. Hidden Gem** 
 
 **7. Profile**
+- [X] "Back" (to Menu Naviagation)
+- [ ] Display Profile image
+- [X] Display Username
+- [ ] Allow user to see their own gems
+- [ ] Allow user to see bookmarked/favorited gems
 
 ## Video Walkthrough
 
