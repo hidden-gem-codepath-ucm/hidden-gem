@@ -27,21 +27,24 @@ class MapViewController: UIViewController {
 //    func displayHiddengems(){
 //        let query = PFQuery(className:"HiddenGems")
 //        query.includeKeys(["title", "location"])
-//
-//        query.findObjectsInBackground { (hiddenGems, error) in
-//            if hiddenGems != nil {
-//                let annotation = MKPointAnnotation()
-//                let location = hiddenGems["location"] as! PFGeoPoint
-//                annotation.subtitle = (hiddenGems["title"] as! String)
-//                annotation.coordinate = CLLocationCoordinate2D(latitude: location.latitude, longitude: location.longitude)
-//                //annotation.description = (hiddenGem["description"] as! String)
-//                self.mapView.addAnnotation(annotation)
-//
-//            }
-//            else{
-//                print("Error displaying HiddenGems: \(error)")
+//        query.findObjectsInBackground { (objects: [PFObject]?, error: Error?) in
+//            if let error = error {
+//                // Log details of the failure
+//                print(error.localizedDescription)
+//            } else if let objects = objects {
+//                // The find succeeded.
+//                print("Successfully retrieved \(objects.count) scores.")
+//                for object in objects {
+//                    print(object.objectId as Any)
+//                    let annotations = MKPointAnnotation()
+//                    let location = objects["location"] as! PFGeoPoint
+//                    annotations.subtitle = objects["title"] as? String
+//                    annotations.coordinate = CLLocationCoordinate2D(latitude: location.latitude, longitude: location.longitude)
+//                    self.mapView.addAnnotation(annotations)
+//                }
 //            }
 //        }
+//        mapView.showAnnotations(mapView.annotations, animated: true)
 //    }
     
     func setupLocationManager(){

@@ -1,29 +1,22 @@
 //
-//  SettingsViewController.swift
+//  ProfileViewController.swift
 //  HiddenGems
 //
-//  Created by Kenny Jung on 4/13/21.
+//  Created by Eduardo Barreto-Mendoza on 4/19/21.
 //
 
 import UIKit
+import Parse
 
-class SettingsViewController: UIViewController {
-    @IBOutlet weak var milesLabel: UILabel!
-    
+class ProfileViewController: UIViewController {
+    @IBOutlet weak var usernameLabel: UILabel!
     @IBAction func onBack(_ sender: Any) {
         dismiss(animated: true, completion: nil)
     }
     
-    @IBAction func onSliide(_ sender: UISlider) {
-        let value = sender.value
-        milesLabel.text = "\(value)"
-        
-    }
-    
-    
-
     override func viewDidLoad() {
         super.viewDidLoad()
+        usernameLabel.text = PFUser.current()?.username
 
         // Do any additional setup after loading the view.
     }

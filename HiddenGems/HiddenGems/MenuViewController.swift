@@ -10,6 +10,9 @@ import Parse
 
 class MenuViewController: UIViewController {
     
+    
+    
+    @IBOutlet weak var usernameLabel: UILabel!
     @IBAction func onBackMenu(_ sender: Any) {
         dismiss(animated: true, completion: nil)
     }
@@ -30,7 +33,7 @@ class MenuViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        usernameLabel.text = PFUser.current()?.username
         // Do any additional setup after loading the view.
     }
     
