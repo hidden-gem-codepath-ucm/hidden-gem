@@ -361,3 +361,7 @@ Here's a walkthrough of implemented user stories 4/12/21:
 
 <img src='http://g.recordit.co/i3m69BhvgA.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
+Here's a walkthrough of implemented user stories 4/19/21:
+
+<img src='http://g.recordit.co/nkRoY0eDRC.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
