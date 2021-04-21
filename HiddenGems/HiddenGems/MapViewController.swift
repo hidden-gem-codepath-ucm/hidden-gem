@@ -19,33 +19,33 @@ class MapViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         checkLocationServices()
-       // displayHiddengems()
+        displayHiddengems()
 
         // Do any additional setup after loading the view.
     }
     
-//    func displayHiddengems(){
-//        let query = PFQuery(className:"HiddenGems")
-//        query.includeKeys(["title", "location"])
-//        query.findObjectsInBackground { (objects: [PFObject]?, error: Error?) in
-//            if let error = error {
-//                // Log details of the failure
-//                print(error.localizedDescription)
-//            } else if let objects = objects {
-//                // The find succeeded.
-//                print("Successfully retrieved \(objects.count) scores.")
-//                for object in objects {
-//                    print(object.objectId as Any)
-//                    let annotations = MKPointAnnotation()
-//                    let location = objects["location"] as! PFGeoPoint
-//                    annotations.subtitle = objects["title"] as? String
-//                    annotations.coordinate = CLLocationCoordinate2D(latitude: location.latitude, longitude: location.longitude)
-//                    self.mapView.addAnnotation(annotations)
-//                }
-//            }
-//        }
-//        mapView.showAnnotations(mapView.annotations, animated: true)
-//    }
+    func displayHiddengems(){
+        let query = PFQuery(className:"HiddenGems")
+        query.includeKeys(["title", "location"])
+        query.findObjectsInBackground { (objects: [PFObject]?, error: Error?) in
+            if let error = error {
+                // Log details of the failure
+                print(error.localizedDescription)
+            } else if let objects = objects {
+                // The find succeeded.
+                print("Successfully retrieved \(objects.count) scores.")
+                for object in objects {
+                    //print(object.objectId as Any)
+                    let annotations = MKPointAnnotation()
+                    let location = object["location"] as! PFGeoPoint
+                    annotations.subtitle = object["title"] as? String
+                    annotations.coordinate = CLLocationCoordinate2D(latitude: location.latitude, longitude: location.longitude)
+                    self.mapView.addAnnotation(annotations)
+                }
+            }
+        }
+       mapView.showAnnotations(mapView.annotations, animated: true)
+    }
     
     func setupLocationManager(){
         locationManager.delegate = self
