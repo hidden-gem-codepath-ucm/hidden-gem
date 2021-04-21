@@ -17,11 +17,18 @@ class MapViewController: UIViewController {
     let regionInMeters: Double = 10000
     
     override func viewDidLoad() {
+        
+        //mapView.delegate = self
         super.viewDidLoad()
         checkLocationServices()
         displayHiddengems()
 
         // Do any additional setup after loading the view.
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        self.displayHiddengems()
     }
     
     func displayHiddengems(){
@@ -103,3 +110,28 @@ extension MapViewController: CLLocationManagerDelegate {
         checkLocationAuthorization()
     }
 }
+
+extension MapViewController: MKMapViewDelegate {
+
+    func mapView(_ mapView: MKMapView, viewFor annotation: MKAnnotation) -> MKAnnotationView? {
+        var annotationView = mapView.dequeueReusableAnnotationView(withIdentifier: "AnnotationView")
+        if annotationView == nil {
+            annotationView = MKAnnotationView(annotation: annotation, reuseIdentifier: "AnnotationView")
+        }
+
+        if annotation !== mapView.userLocation {
+            annotationView?.image = UIImage(named: "HiddenGem1x-1")
+        }
+        else{
+            annotationView = nil
+        }
+        annotationView?.canShowCallout = true
+
+        return  annotationView
+    }
+    func mapView(_ mapView: MKMapView, didSelect view: MKAnnotationView) {
+        print("The annotation was selected \(String(describing: view.annotation?.subtitle))")
+    }
+
+}
+
